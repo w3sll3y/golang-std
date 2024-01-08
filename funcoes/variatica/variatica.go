@@ -11,5 +11,5 @@ func media(numeros ...float64) float64 {
 }
 
 func main() {
-	fmt.Printf("Media %2.f", media(7.7, 8.1, 5.9, 9.9))
+	fmt.Printf("Media %2.f:", media(7.7, 8.1, 5.9, 9.9))
 }
